@@ -1,0 +1,11 @@
+- Setup WIFI credentials into 'wifi_creds'
+- Upload all files in ESP module
+- Put your cool code into 'user.lua'
+- Fire up!
+
+If module successfully conneted to your WIFI you will be able
+to get lua console over IP using telnet tool. Otherwise module
+setups open AP named ESP-xxxx. You can connect to it and get
+get lua console on IP 192.168.4.1:23 using telnet.
+If console is avaible you can upload OTA updates for you lua 
+code using 'luatool' from https://github.com/4refr0nt/luatool
