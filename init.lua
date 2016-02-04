@@ -1,0 +1,7 @@
+print('MAC: ',wifi.sta.getmac())
+print('chip: ',node.chipid())
+print('Wait 5 sec before start')
+tmr.alarm(0, 5000, 0, function() 
+    boots = require('boots')
+    boots.connectToAP()
+end)
